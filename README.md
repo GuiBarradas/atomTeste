@@ -10,7 +10,7 @@ Decidi utilizar as bibliotecas OpenZeppelin para implementar funcionalidades de 
 
 ## Motivo para usar Amoy Testnet
 
-Decidi utilizar a Amoy pois, como a sugerida no e-mail foi a Mumbai, que a alguns meses foi descontinuida, decidi utilizar a Amoy que é a testnet desenvolvida para substituir a Mumbai.
+Decidi utilizar a Amoy pois, como a sugerida no e-mail foi a Mumbai, que a alguns meses foi descontinuida, então opter pela a Amoy que é a testnet desenvolvida para substituir a própria Mumbai.
 
 ## Funcionalidades
 
