@@ -23,7 +23,7 @@ Decidi utilizar as bibliotecas OpenZeppelin para implementar funcionalidades de 
 
 ### Passo 2: Crie um novo arquivo
 
-1. No Remix, crie um novo arquivo e cole o código do contrato AtomTeste.
+1. No Remix, crie um novo arquivo e cole o código do contrato AtomTeste. (Nesse repositório se encontra em contracts >>> Atom.sol)
 
 ### Passo 3: Instale as dependências
 
