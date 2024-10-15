@@ -53,9 +53,8 @@ Decidi utilizar as bibliotecas OpenZeppelin para implementar funcionalidades de 
 
 ## Endereço do contrato na Amoy Testnet
 
-Você pode visualizar o contrato implantado no seguinte link: [Amoy Testnet Contract](amoy.polygonscan.com/address/0x858f30ae202d23173d7b2baad56ca43f6e6e8958)
+Você pode visualizar o contrato implantado no seguinte link: [Amoy Testnet Contract](https://amoy.polygonscan.com/address/0x858f30Ae202d23173d7B2bAad56Ca43F6e6E8958)
 
 ## Conclusão
 
-Como é possível ver no histórico de transação, o contrato está funcional e seguindo boas práticas, visando segurança e fácil entendimento do código. 
-
+Como é possível ver no histórico de transação, o contrato está funcional e seguindo boas práticas, visando segurança e fácil entendimento do código.
