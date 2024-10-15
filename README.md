@@ -23,34 +23,32 @@ Decidi utilizar as bibliotecas OpenZeppelin para implementar funcionalidades de 
 
 ### Passo 2: Crie um novo arquivo
 
-1. No Remix, crie um novo arquivo e cole o código do contrato AtomTeste. (Nesse repositório se encontra em contracts >>> Atom.sol)
+1. No Remix, faça o login e crie um novo workspace e cole o código do contrato Atom.sol. (Nesse repositório se encontra em contracts >>> Atom.sol)
 
-### Passo 3: Instale as dependências
 
-1. Vá até a aba de plugins e ative o plugin "Solidity Compiler".
-2. Ative o plugin "Deploy & Run Transactions".
-
-### Passo 4: Configure a Amoy Testnet
+### Passo 3: Configure a Amoy Testnet
 
 1. Certifique-se de ter a MetaMask instalada e configurada para a Amoy Testnet.
-2. Adicione MATIC à sua conta na Amoy Testnet através do faucet.
+2. Adicione MATIC à sua conta na Amoy Testnet através do [Faucet](https://www.alchemy.com/faucets/polygon-amoy)
+3. Volte para o Remix
 
-### Passo 5: Compile o contrato
+### Passo 4: Compile o contrato
 
 1. Selecione a versão do compilador (deve ser compatível com a versão do Solidity utilizada no contrato).
 2. Clique em "Compile AtomTeste.sol".
 
-### Passo 6: Implante o contrato
+### Passo 5: Implante o contrato
 
 1. Na aba "Deploy & Run Transactions", selecione "Injected Web3" na rede.
 2. Certifique-se de que a MetaMask está conectada à Amoy Testnet.
 3. Clique em "Deploy" para implantar o contrato.
 
-### Passo 7: Interaja com o contrato
+### Passo 6: Interaja com o contrato
 
 1. Após a implantação, você verá as funções disponíveis no contrato.
 2. Utilize as funções de depósito, retirada e verificação de saldo conforme necessário.
 
+PS: Sempre bom lembrar sobre valores WEI e taxas, é normal que ocorra algumas falhas devido a mudanças de taxa, mas é só aumentar e tentar algumas vezes (E, caso dê erro no valor, pesquisar sobre valores wei)
 ## Endereço do contrato na Amoy Testnet
 
 Você pode visualizar o contrato implantado no seguinte link: [Amoy Testnet Contract](https://amoy.polygonscan.com/address/0x858f30Ae202d23173d7B2bAad56Ca43F6e6E8958)
