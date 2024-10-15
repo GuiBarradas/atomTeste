@@ -8,6 +8,10 @@ Projeto de teste para a posição na AtomMeta Space, onde me foi pedido para des
 
 Decidi utilizar as bibliotecas OpenZeppelin para implementar funcionalidades de controle de propriedade e proteção contra ataques de reentrância. Essas bibliotecas são amplamente testadas e auditadas, garantindo um nível elevado de segurança e confiabilidade para o contrato. Assim, asseguro as boas práticas.
 
+## Motivo para usar Amoy Testnet
+
+Decidi utilizar a Amoy pois, como a sugerida no e-mail foi a Mumbai, que a alguns meses foi descontinuida, decidi utilizar a Amoy que é a testnet desenvolvida para substituir a Mumbai.
+
 ## Funcionalidades
 
 - **Depósito**: Os usuários podem depositar MATIC no contrato.
