@@ -1,28 +1,61 @@
-REMIX DEFAULT WORKSPACE
+# AtomTeste Smart Contract
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+## Descrição
 
-This workspace contains 3 directories:
+Projeto de teste para a posição na AtomMeta Space, onde me foi pedido para desenvolver um smart contract onde fosse possível depositar, sacar, ver o saldo e contasse com foco em segurança.
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+## Motivo para usar OpenZeppelin
 
-SCRIPTS
+Decidi utilizar as bibliotecas OpenZeppelin para implementar funcionalidades de controle de propriedade e proteção contra ataques de reentrância. Essas bibliotecas são amplamente testadas e auditadas, garantindo um nível elevado de segurança e confiabilidade para o contrato. Assim, asseguro as boas práticas.
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
+## Funcionalidades
 
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
+- **Depósito**: Os usuários podem depositar MATIC no contrato.
+- **Retirada**: Os usuários podem retirar MATIC que possuem no contrato.
+- **Verificação de Saldo**: Os usuários podem consultar seu saldo disponível no contrato.
+- **Controle de Propriedade**: O proprietário do contrato pode transferir ou renunciar à propriedade.
 
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
+## Como rodar o código no Remix
 
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
+### Passo 1: Acesse o Remix IDE
 
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+1. Acesse o [Remix IDE](https://remix.ethereum.org/).
+
+### Passo 2: Crie um novo arquivo
+
+1. No Remix, crie um novo arquivo e cole o código do contrato AtomTeste.
+
+### Passo 3: Instale as dependências
+
+1. Vá até a aba de plugins e ative o plugin "Solidity Compiler".
+2. Ative o plugin "Deploy & Run Transactions".
+
+### Passo 4: Configure a Amoy Testnet
+
+1. Certifique-se de ter a MetaMask instalada e configurada para a Amoy Testnet.
+2. Adicione MATIC à sua conta na Amoy Testnet através do faucet.
+
+### Passo 5: Compile o contrato
+
+1. Selecione a versão do compilador (deve ser compatível com a versão do Solidity utilizada no contrato).
+2. Clique em "Compile AtomTeste.sol".
+
+### Passo 6: Implante o contrato
+
+1. Na aba "Deploy & Run Transactions", selecione "Injected Web3" na rede.
+2. Certifique-se de que a MetaMask está conectada à Amoy Testnet.
+3. Clique em "Deploy" para implantar o contrato.
+
+### Passo 7: Interaja com o contrato
+
+1. Após a implantação, você verá as funções disponíveis no contrato.
+2. Utilize as funções de depósito, retirada e verificação de saldo conforme necessário.
+
+## Endereço do contrato na Amoy Testnet
+
+Você pode visualizar o contrato implantado no seguinte link: [Amoy Testnet Contract](amoy.polygonscan.com/address/0x858f30ae202d23173d7b2baad56ca43f6e6e8958)
+
+## Conclusão
+
+Como é possível ver no histórico de transação, o contrato está funcional e seguindo boas práticas, visando segurança e fácil entendimento do código. 
+
