@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Projeto de teste para a posição na AtomMeta Space, onde me foi pedido para desenvolver um smart contract onde fosse possível depositar, sacar, ver o saldo e contasse com foco em segurança.
+Projeto de teste para a posição na Atom Meta Space, onde me foi pedido para desenvolver um smart contract onde fosse possível depositar, sacar, ver o saldo e contasse com foco em segurança.
 
 ## Motivo para usar OpenZeppelin
 
